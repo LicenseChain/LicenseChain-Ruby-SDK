@@ -90,3 +90,6 @@ Thumbs.db
 # Local agent / OPSEC
 .claude/
 CLAUDE.md
+vendor/bundle/
+.bundle/
+Gemfile.lock.bak
