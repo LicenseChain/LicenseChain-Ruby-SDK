@@ -93,3 +93,4 @@ CLAUDE.md
 vendor/bundle/
 .bundle/
 Gemfile.lock.bak
+/vendor/bundle/
