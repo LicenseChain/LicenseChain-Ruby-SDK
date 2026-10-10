@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.2] - 2026-10-10
+
+- Aligned CI Ruby matrix to 3.1/3.2/3.3/3.4 (matches gemspec `required_ruby_version >= 3.1`).
+- Bumped `actions/checkout` to v7 in CI.
+- Ignored local `vendor/bundle` / `.bundle` paths in `.gitignore`.
+
+
 ## [1.0.1] - 2026-10-10
 
 - Relicensed public surface under Elastic License 2.0 (ELv2).
