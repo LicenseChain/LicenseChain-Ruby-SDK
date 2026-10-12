@@ -1,0 +1,24 @@
+name: Publish RubyGems
+
+on:
+  workflow_dispatch:
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+
+      - name: Set up Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: "3.2"
+          bundler-cache: true
+
+      - name: Publish to RubyGems
+        run: |
+          mkdir -p "$HOME/.gem"
+          printf '%s\n' '---' ":rubygems_api_key: ${{ secrets.RUBYGEMS_API_KEY }}" > "$HOME/.gem/credentials"
+          chmod 600 "$HOME/.gem/credentials"
+          gem build licensechain_ruby_sdk.gemspec
+          gem push licensechain_ruby_sdk-*.gem
