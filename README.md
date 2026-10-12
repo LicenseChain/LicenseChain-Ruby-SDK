@@ -20,8 +20,6 @@ Official Ruby SDK for LicenseChain - Secure license management for Ruby applicat
 
 ## 📦 Installation
 
-The gem is published on RubyGems.org (`licensechain_ruby_sdk`); the GitHub Packages sidebar stays empty by design (not used).
-
 ### Method 1: RubyGems (Recommended)
 
 ```bash
