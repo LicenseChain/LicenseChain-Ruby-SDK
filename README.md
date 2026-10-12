@@ -2,8 +2,8 @@
 
 [![License](https://img.shields.io/badge/license-Elastic--2.0-blue.svg)](LICENSE)
 [![Ruby](https://img.shields.io/badge/Ruby-3.0+-red.svg)](https://www.ruby-lang.org/)
-[![Gem](https://img.shields.io/gem/v/licensechain-sdk)](https://rubygems.org/gems/licensechain-sdk)
-[![Downloads](https://img.shields.io/gem/dt/licensechain-sdk)](https://rubygems.org/gems/licensechain-sdk)
+[![Gem](https://img.shields.io/gem/v/licensechain_ruby_sdk)](https://rubygems.org/gems/licensechain_ruby_sdk)
+[![Downloads](https://img.shields.io/gem/dt/licensechain_ruby_sdk)](https://rubygems.org/gems/licensechain_ruby_sdk)
 
 Official Ruby SDK for LicenseChain - Secure license management for Ruby applications.
 
@@ -24,17 +24,17 @@ Official Ruby SDK for LicenseChain - Secure license management for Ruby applicat
 
 ```bash
 # Install via gem
-gem install licensechain-sdk
+gem install licensechain_ruby_sdk
 
 # Or add to Gemfile
-gem 'licensechain-sdk', '~> 1.0'
+gem 'licensechain_ruby_sdk', '~> 1.0'
 ```
 
 ### Method 2: Bundler
 
 ```bash
 # Add to Gemfile
-gem 'licensechain-sdk', '~> 1.0'
+gem 'licensechain_ruby_sdk', '~> 1.0'
 
 # Install dependencies
 bundle install
@@ -51,7 +51,7 @@ bundle install
 ### Basic Setup
 
 ```ruby
-require 'licensechain-sdk'
+require 'licensechain_ruby_sdk'
 
 # Initialize the client
 client = LicenseChain::Client.new(
@@ -452,7 +452,7 @@ We welcome contributions! Please see our [Contributing Guide](CONTRIBUTING.md) f
 1. Clone the repository
 2. Install Ruby 3.0 or later
 3. Install dependencies: `bundle install`
-4. Build: `gem build licensechain-sdk.gemspec`
+4. Build: `gem build licensechain_ruby_sdk.gemspec`
 5. Test: `rspec`
 
 ## 📄 License
