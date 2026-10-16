@@ -4,10 +4,10 @@
 
 - Keep default API base aligned with `https://api.licensechain.app/v1`.
 - Maintain `verify_with_details` and JWT/JWKS helper compatibility.
-- Preserve contract parity for verification responses and license assertions.
+- Keep gemspec Ruby floor (`>= 3.1`) and RubyGems metadata aligned with published gems.
 
 ## Next Operational Tasks
 
-- Re-run conformance after Core API contract updates.
-- Keep docs links and examples synchronized with canonical docs.
-- Record release-impacting changes in `CHANGELOG.md`.
+- Re-run conformance checks after Core API verify/JWKS contract updates.
+- Keep docs and examples synchronized with https://docs.licensechain.app/en/sdk.
+- Record release-impacting changes in `CHANGELOG.md`; develop experiments on `dev`, release from `main`.
