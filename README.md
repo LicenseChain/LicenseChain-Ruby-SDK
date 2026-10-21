@@ -1,7 +1,7 @@
 # LicenseChain Ruby SDK
 
 [![License](https://img.shields.io/badge/license-Elastic--2.0-blue.svg)](LICENSE)
-[![Ruby](https://img.shields.io/badge/Ruby-3.0+-red.svg)](https://www.ruby-lang.org/)
+[![Ruby](https://img.shields.io/badge/Ruby-3.1+-red.svg)](https://www.ruby-lang.org/)
 [![Gem](https://img.shields.io/gem/v/licensechain_ruby_sdk)](https://rubygems.org/gems/licensechain_ruby_sdk)
 [![Downloads](https://img.shields.io/gem/dt/licensechain_ruby_sdk)](https://rubygems.org/gems/licensechain_ruby_sdk)
 [![CI](https://github.com/LicenseChain/LicenseChain-Ruby-SDK/actions/workflows/ci.yml/badge.svg)](https://github.com/LicenseChain/LicenseChain-Ruby-SDK/actions/workflows/ci.yml)

@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |spec|
   spec.name          = "licensechain_ruby_sdk"
-  spec.version       = "1.0.1"
+  spec.version       = "1.0.3"
   spec.authors       = ["LicenseChain Team"]
   spec.email         = ["support@licensechain.app"]
 
@@ -32,7 +32,7 @@ Gem::Specification.new do |spec|
   spec.add_dependency "jwt", "~> 2.8"
   spec.add_dependency "zeitwerk", "~> 2.6"
 
-  spec.add_development_dependency "bundler", "~> 2.0"
+  spec.add_development_dependency "bundler", ">= 2.0"
   spec.add_development_dependency "rake", "~> 13.0"
   spec.add_development_dependency "rspec", "~> 3.12"
   spec.add_development_dependency "webmock", "~> 3.18"
