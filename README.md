@@ -1,6 +1,6 @@
 # LicenseChain Ruby SDK
 
-[![License](https://img.shields.io/badge/license-Elastic--2.0-blue.svg)](LICENSE)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![Ruby](https://img.shields.io/badge/Ruby-3.1+-red.svg)](https://www.ruby-lang.org/)
 [![Gem](https://img.shields.io/gem/v/licensechain_ruby_sdk)](https://rubygems.org/gems/licensechain_ruby_sdk)
 [![Downloads](https://img.shields.io/gem/dt/licensechain_ruby_sdk)](https://rubygems.org/gems/licensechain_ruby_sdk)
@@ -455,7 +455,7 @@ We welcome contributions! Please see our [Contributing Guide](CONTRIBUTING.md) f
 
 ## 📄 License
 
-This project is licensed under the Elastic License 2.0 (ELv2) — see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License (ELv2) — see the [LICENSE](LICENSE) file for details.
 
 ## 🆘 Support
 
