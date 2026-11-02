@@ -5,6 +5,14 @@ All notable changes to this project are documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.0.3] - 2026-10-20
+
+- Synced gemspec and `LicenseChainRubySdk::VERSION` to 1.0.3 (were stuck at 1.0.1 / 1.0.0).
+- Widened development `bundler` constraint to `>= 2.0` so modern Bundler can install.
+- Documented runtime `json` range as `>= 2.6, < 4.0`.
+- README Ruby badge aligned to 3.1+; CI also runs on `dev`.
+- Added minimal `Rakefile` so `bundle exec rake test` matches CI.
+
 ## [1.0.2] - 2026-10-10
 
 - Aligned CI Ruby matrix to 3.1/3.2/3.3/3.4 (matches gemspec `required_ruby_version >= 3.1`).
